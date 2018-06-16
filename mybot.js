@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const  client = new Discord.Client();
-const config = require("./config.json");
 
 client.on("ready", () => {
    console.log("Estoy listo!");
@@ -609,4 +608,4 @@ client.on("message", (message) => {
     message.channel.send("65.000.000 Silver Coins");
   }
 });
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
