@@ -4,7 +4,6 @@ const  client = new Discord.Client();
 client.on("ready", () => {
    console.log("Estoy listo!");
 });
-var prefix = config.prefix;
 
 client.on("message", (message) => {
   if (message.content.startsWith(prefix + "1kk on")) {
@@ -608,4 +607,4 @@ client.on("message", (message) => {
     message.channel.send("65.000.000 Silver Coins");
   }
 });
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.NDU3MTczNjk0OTc3MTQ2ODgx.DgbtrA.62nLSlBNlxPsGMqAdyi1iMdjlUE);
